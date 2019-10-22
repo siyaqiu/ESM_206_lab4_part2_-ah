@@ -38,3 +38,9 @@ iris_graph
 ggplotly(iris_graph)    # command + shift + c make whole selected area comment 
 ```
 
+### Make an interactive table with DT
+
+```{r}
+datatable(msleep)
+```
+
