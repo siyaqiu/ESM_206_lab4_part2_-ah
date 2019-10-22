@@ -1,0 +1,16 @@
+---
+title: "lab_4_interactive_graph_example"
+author: "Siya Qiu"
+date: "10/22/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+Here, we will practice creating some interective graphs and tables using built-in dataset in R packages
+
+- Interective plots (poltry)
+- Interective plots (DT)
