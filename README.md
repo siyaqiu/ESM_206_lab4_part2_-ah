@@ -1,1 +1,8 @@
-# ESM_206_lab4_part2_-ah
+# My awesome readme!
+
+- Some
+- bullet 
+- point
+
+Any other useful informaiton!
+YAY
