@@ -14,3 +14,27 @@ Here, we will practice creating some interective graphs and tables using built-i
 
 - Interective plots (poltry)
 - Interective plots (DT)
+
+```{r include = FALSE}
+# attach packages
+library(tidyverse)
+library(DT)
+library(plotly)
+```
+
+### A. interective graph of iris dimentions
+
+Using Edger Anderson's famous "iris" dataset
+
+```{r, echo = FALSE}
+iris_graph <- ggplot(data = iris, aes(x = Petal.Width, y = Petal.Length)) +
+  geom_point(aes(size = Sepal.Width,
+                 color = Species),
+             alpha = 0.5) +
+  theme_minimal() +
+  labs(x = "petal widths (cm)", y = "petal lengths (cm)", title = "Petals")
+iris_graph
+
+ggplotly(iris_graph)    # command + shift + c make whole selected area comment 
+```
+
